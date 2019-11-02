@@ -1,0 +1,279 @@
+body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 100px;
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    
+}
+
+
+
+#nav ul li a:hover{
+    color: #583fd6!important;
+}
+
+
+
+
+
+.navbar{
+    background: #fff;
+
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.my-col1{
+    padding-top: 50px;
+    background-color: #343434;
+    height: 100%;
+    
+}
+
+
+
+.my-col2{
+    /* background-color: lightblue; */
+    height:100%;
+}
+
+.technique-heading{
+    margin-top:30px;
+    color: white;
+    font-weight: 50;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.tools-heading{
+    margin-top: 50px;
+    color:white;
+    font-weight: 50;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.my-col1 ul{
+    list-style-type: none;
+}
+
+.my-col1 li{
+    margin-bottom: 10px;
+    
+}
+
+.my-col1 li a{
+    color: white;
+    margin-left: 45px;
+}
+
+.my-col1 li :hover{
+    color: #8bf2ff;
+    text-decoration: none;
+}
+
+hr{
+    background-color: #8bf2ff;
+    width: 20%;
+    height: 3px;
+    margin-left: 45px;
+    margin-bottom:0px;
+
+}
+
+.page-heading-link{
+    /* margin-top: 1px; */
+    margin-bottom: 40px;
+    color: #8bf2ff;
+    
+    /* letter-spacing: 1.5px; */
+    
+}
+
+.page-heading-link a{
+    color: #8bf2ff;
+    margin-left: 45px;
+}
+
+
+/* Main section*/
+
+.my-col2{
+    margin:0px;
+    padding:0px;
+}
+
+.background-hero{
+
+    background-image: url(../images/Empathize\ hero.png);
+    background-repeat: none;
+    height: 200px;
+    width: 100%;
+}
+
+.background-hero h2{
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    font-size: 40px;
+    padding: 30px;
+    position: relative;
+}
+
+.bluebox{
+    background-color: #c7ffff;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px 20px;
+    position: absolute;
+    top: 90px;
+    
+
+}
+
+.bluebox em{
+    font-size: 40px;
+    font-style: normal;
+    
+
+}
+
+.bluebox p{
+    margin: 0, auto;
+    padding: 0 60px;
+}
+
+/* WHY Section */
+
+.w-box{
+    height: 60px;
+    width: 250px;
+    background-color:#c7ffff;
+    margin-top:170px;
+    margin-left: -30px;
+    position: relative;
+}
+
+.w-header{
+    position: absolute;
+    bottom: 25px;
+    margin-left: 30px;
+    
+}
+
+.w-header em{
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #343434;
+    height: 100%;
+ }
+ 
+ .footer-top {
+    display: flex;
+ }
+ 
+ .left {
+    color: white;
+    width: 60%;
+    align-self: center;
+    margin: 5% 5% 3% 10%;
+ }
+ 
+ .left em {
+    font-size: 35px;
+    font-weight: 900;
+    color: #8BF2FF;
+    font-family: 'BenchNine', sans-serif;
+ }
+ .more-links{
+    font-size: 30px;
+    font-weight: 900;
+    color: #8BF2FF;
+    font-family: 'BenchNine', sans-serif;
+ }
+ 
+ .right {
+    color: white;
+    width: 40%;
+    align-self: center;
+    margin: 5% 10% 3% 5%;
+ }
+ 
+ .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "one two" "three four";
+ 
+ }
+ 
+ .grid-item{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+ }
+ .foot-line {
+    background-color: white;
+    margin: 50px auto 3px auto;
+    width: 90%;
+    height: 1px;
+ }
+ 
+ .social {
+    margin: 1% 5% 1% 5%;
+ 
+ }
+
+
+ @media (max-width: 575px) {
+   
+  .my-col1 {
+    display: none;
+    }
+ }
+
+
+
+

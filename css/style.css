@@ -1,0 +1,320 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    
+}
+
+#nav ul li a:hover{
+    color: #583fd6!important;
+}
+
+.navbar{
+    background: #fff;
+
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link{
+    /* color: #583fd6!important; */
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 30;
+}
+
+.search-bar{
+    margin-left: 900px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-size: cover;
+}
+
+
+
+.reallythinhero {
+    width: 100%;
+    height: 140px;
+    /* background-image: url(../images/Empathize\ hero.png); */
+    background-image: linear-gradient(#6e296e, #ebcdeb), url(../images/thinHero.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+  
+
+}
+
+
+
+.reallythinhero p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 60px 60px;
+}
+
+.main-heading{
+    text-align: center;
+    /* font-weight: 1000; */
+    color: grey;
+    margin-top: 30px;
+    
+
+}
+
+.main-heading h2{
+    font-size: 60px;
+}
+
+.main-img{
+
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+
+.main-img img{
+    
+    
+    display: inline-block;
+    height: 800px;
+    width: 800px;
+}
+
+#seperator{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+
+.short-line{
+    border-top: 2px solid black;
+    width: 10%;
+    margin-top: 27px;
+    
+
+}
+
+.section-name{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    font-size: 30px;
+    
+}
+
+.long-line{
+
+    border-top: 2px solid black;
+    width: 90%;
+    margin-top: 27px;
+
+}
+
+
+.page-wrapper a:hover{
+    color: #006669;
+}
+/* POST SLIDER */
+
+/* h1, h2, h3, h4, h5, h6{
+    font-family: 
+} */
+
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 5px;
+    color: #444;
+} 
+
+a {
+    text-decoration: none;
+}
+
+
+.post-slider{
+
+    position: relative;
+    margin: 75px 50px;
+
+}
+
+.post-slider .slider-title{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.post-slider .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: #006669;
+    cursor: pointer;
+}
+
+.post-slider .prev{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: #006669;
+    cursor: pointer;
+}
+
+.post-slider .post-wrapper{
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    
+
+}
+
+
+
+.post-slider .post-wrapper .post{
+    width: 300px;
+    height: 330px;
+    margin: 0px 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem lightgray;
+}
+
+.post-slider .post-wrapper .post .slider-image{ 
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.post-slider .post-wrapper .post .post-info{
+    height: 130px;
+    padding: 0px 5px;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: #343434;
+    height: 100%;
+ }
+ 
+ .footer-top {
+    display: flex;
+ }
+ 
+ .left {
+    color: white;
+    width: 60%;
+    align-self: center;
+    margin: 5% 5% 3% 10%;
+ }
+ 
+ .left em {
+    font-size: 35px;
+    font-weight: 900;
+    color: #8BF2FF;
+    font-family: 'BenchNine', sans-serif;
+ }
+ .more-links{
+    font-size: 30px;
+    font-weight: 900;
+    color: #8BF2FF;
+    font-family: 'BenchNine', sans-serif;
+ }
+ 
+ .right {
+    color: white;
+    width: 40%;
+    align-self: center;
+    margin: 5% 10% 3% 5%;
+ }
+ 
+ .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "one two" "three four";
+ 
+ }
+ 
+ .grid-item{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+ }
+ .foot-line {
+    background-color: white;
+    margin: 50px auto 3px auto;
+    width: 90%;
+    height: 1px;
+ }
+ 
+ #social {
+     text-align: right;
+    color: white;
+   margin-right: 250px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding-right: 10px;
+   
+ 
+ }
+
+ .social i{
+     font-size: 2rem;
+     padding: 10px 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
